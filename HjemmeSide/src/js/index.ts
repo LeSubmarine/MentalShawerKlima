@@ -16,7 +16,7 @@ interface IFan {
 }
 
 //localhost temporary
-let baseUrl = 'https://apimentalshowerindoor.azurewebsites.net/api/indoorclimate';
+let baseUrl = 'https://apimentalshowerindoor.azurewebsites.net/latest';
 
 new Vue({
     // TypeScript compiler complains about Vue because the CDN link to Vue is in the html file.
@@ -26,7 +26,7 @@ new Vue({
     data: {
         fans: [],
         fan: {"humidity": 0},
-        sensorId: "2",
+        sensorId: "0",
         styleObject: {
             background: 'red',
             color: 'white',

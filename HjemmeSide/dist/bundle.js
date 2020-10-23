@@ -2072,7 +2072,7 @@ __webpack_require__.r(__webpack_exports__);
 _node_modules_axios_index__WEBPACK_IMPORTED_MODULE_0___default.a.defaults.headers.common['Content-Type'] = 'application/x-www-form-urlencoded';
 _node_modules_axios_index__WEBPACK_IMPORTED_MODULE_0___default.a.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
 //localhost temporary
-let baseUrl = 'https://apimentalshowerindoor.azurewebsites.net/api/indoorclimate';
+let baseUrl = 'https://apimentalshowerindoor.azurewebsites.net/latest';
 new Vue({
     // TypeScript compiler complains about Vue because the CDN link to Vue is in the html file.
     // Before the application runs this TypeScript file will be compiled into bundle.js
@@ -2081,7 +2081,7 @@ new Vue({
     data: {
         fans: [],
         fan: { "humidity": 0 },
-        sensorId: "2",
+        sensorId: "0",
         styleObject: {
             background: 'red',
             color: 'white',
